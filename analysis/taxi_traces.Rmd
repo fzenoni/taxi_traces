@@ -72,14 +72,12 @@ if ( is.null(path_to_wd) | !dir.exists(path_to_wd)) {
 cat("
 library(data.table)
 library(ggplot2)
-library(dplyr)
 library(knitr)
 library(osmdata)
 library(sf)
 library(tmap)
 library(rgdal)
-library(leaflet)
-library(lwgeom)",
+library(leaflet)",
   file = "manifest.R")
 ```
 
