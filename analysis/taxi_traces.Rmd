@@ -24,9 +24,9 @@ package_date <- "2018-01-10" # date of the CRAN snapshot that
 # the checkpoint package uses
 ```
 
-### GitHub
+<!-- ### GitHub -->
 
-The code for the herein described process can also be freely downloaded from [https://github.com/`r user_name`/`r project_name`](https://github.com/`r user_name`/`r project_name`).
+<!-- The code for the herein described process can also be freely downloaded from [https://github.com/`r user_name`/`r project_name`](https://github.com/`r user_name`/`r project_name`). -->
 
 ```{r include=FALSE}
 detach_all_packages <- function() {
