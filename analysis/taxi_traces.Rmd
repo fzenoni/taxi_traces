@@ -72,7 +72,6 @@ if ( is.null(path_to_wd) | !dir.exists(path_to_wd)) {
 cat("
 library(data.table)
 library(ggplot2)
-library(knitr)
 library(osmdata)
 library(sf)
 library(tmap)
@@ -155,7 +154,7 @@ traces <- readRDS("./input/data.rds")
 To save time, I already prepared a data.table with the following columns: taxi_id, time, longitude and latitude:
 
 ```{r}
-kable(head(traces))
+knitr::kable(head(traces))
 ```
 
 We can start by adding some useful information to it, such as time interval, distance and average speed between successive points for a given taxi driver:
